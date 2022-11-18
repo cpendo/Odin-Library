@@ -20,13 +20,19 @@
 
     <div class="overlay"></div>
 
-    <div class="tile">
-        <h4>Add New Book</h4>
-        <input type="text" placeholder="Title">
-        <input type="text" placeholder="Author">
-        <input type="number" placeholder="Pages">
-        <h5>Have you read the book? <input type="checkbox" name="" id=""></h5>
-        <button>Add book</button>
+    <div class="form">
+        <form class="tile">
+            <h4>Add New Book</h4>
+            <input type="text" name="title" id="title" placeholder="Title" required>
+            <input type="text" name="author" id="author" placeholder="Author" required>
+            <input type="number" name="pages" id="pages" placeholder="Pages" required>
+            <h5>Have you read the book? <input type="checkbox" name="status" id="status"></h5>
+            <button type="submit">Add book</button>
+        </form>
+    </div>
+
+    <div class="grid">
+        
     </div>
     
     <script src="script.js"></script>
